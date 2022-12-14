@@ -8,6 +8,8 @@ npm install --save-dev-nodemon
 
 npm add mongodb
 
+npm add dotenv
+
 npm install mongosh
 
 create database and collection inside monogodb
