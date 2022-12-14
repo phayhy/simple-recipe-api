@@ -1,0 +1,101 @@
+use("fake_recipes")
+
+db.createCollection("recipes")
+
+db.recipes.insertMany(
+    
+  [
+	{
+		"_id": "6395dd564f2e713dd56c2459",
+		"title": "Fried Super Rice",
+		"ingredients": [
+			"rice",
+			"shrimp",
+			"eggs",
+			"oil"
+		]
+	},
+	{
+		"_id": "6395dde54f2e713dd56c245a",
+		"title": "Mee Goreng",
+		"ingredients": [
+			"noodles",
+			"shrimp",
+			"eggs",
+			"oil",
+			"sambal"
+		]
+	},
+	{
+		"_id": "6395eef40b181446b6b80eb1",
+		"title": "Peking Roasted Duck",
+		"ingredients": [
+			"duck",
+			" herbs",
+			" soy sauce"
+		]
+	},
+	{
+		"_id": "6397533ef4752bc40806d788",
+		"title": "Mee Kway Tiao",
+		"ingredients": [
+			"kway tiao",
+			"shrimp",
+			"eggs",
+			"oil",
+			"sambal"
+		]
+	},
+	{
+		"_id": "63993fd3fcff4d40cbee3217",
+		"title": "Miso Soup",
+		"ingredients": [
+			"miso",
+			"tofu",
+			"water"
+		]
+	},
+	{
+		"_id": "6399408dfcff4d40cbee3218",
+		"title": "Corn Soup",
+		"ingredients": [
+			"corn",
+			" water",
+			" broth",
+			" msg"
+		]
+	},
+	{
+		"_id": "639940e7fcff4d40cbee3219",
+		"title": "Mala Hot Pot",
+		"ingredients": [
+			"mala",
+			" chill pepper",
+			" oil",
+			" meat",
+			" vegetables"
+		]
+	},
+	{
+		"_id": "6399414dfcff4d40cbee321a",
+		"title": "Salmon Sushi",
+		"ingredients": [
+			"salmon",
+			" sushi rice"
+		]
+	},
+	{
+		"_id": "63995e815250f352db95b1f8",
+		"title": "Wanton Mee",
+		"ingredients": [
+			"noodles",
+			"vegetables",
+			"char siew",
+			"wanton"
+		]
+	}
+]  
+    
+);
+
+
