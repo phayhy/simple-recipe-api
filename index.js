@@ -47,8 +47,8 @@ async function main(){
 
 main();
 
-app.listen(process.env.PORT || 8888, ()=>{
-    console.log(`Server started..listing to PORT 8888`);
+app.listen(process.env.PORT || 3000, ()=>{
+    console.log(`Server started..listing to PORT 3000`);
 });
 
 
