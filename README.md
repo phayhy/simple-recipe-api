@@ -4,6 +4,8 @@ npm init -y
 
 npm i express hbs mongodb wax-on cors dotenv
 
+npm audit fix --force
+
 npm install --save-dev-nodemon
 
 npm add mongodb
