@@ -1,10 +1,111 @@
 use("fake_recipes")
 
-db.createCollection("recipes")
+//db.createCollection("recipes")
 
 db.recipes.insertMany(
     
   [
+	{
+		
+		"title": "Fried Super Rice",
+		"ingredients": [
+			"rice",
+			"shrimp",
+			"eggs",
+			"oil"
+		]
+	},
+	{
+		
+		"title": "Mee Goreng",
+		"ingredients": [
+			"noodles",
+			"shrimp",
+			"eggs",
+			"oil",
+			"sambal"
+		]
+	},
+	{
+		
+		"title": "Peking Roasted Duck",
+		"ingredients": [
+			"duck",
+			" herbs",
+			" soy sauce"
+		]
+	},
+	{
+		
+		"title": "Mee Kway Tiao",
+		"ingredients": [
+			"kway tiao",
+			"shrimp",
+			"eggs",
+			"oil",
+			"sambal"
+		]
+	},
+	{
+		
+		"title": "Miso Soup",
+		"ingredients": [
+			"miso",
+			"tofu",
+			"water"
+		]
+	},
+	{
+		
+		"title": "Corn Soup",
+		"ingredients": [
+			"corn",
+			" water",
+			" broth",
+			" msg"
+		]
+	},
+	{
+		
+		"title": "Mala Hot Pot",
+		"ingredients": [
+			"mala",
+			" chill pepper",
+			" oil",
+			" meat",
+			" vegetables"
+		]
+	},
+	{
+		
+		"title": "Salmon Sushi",
+		"ingredients": [
+			"salmon",
+			" sushi rice"
+		]
+	},
+	{
+		
+		"title": "Wanton Mee",
+		"ingredients": [
+			"noodles",
+			"vegetables",
+			"char siew",
+			"wanton"
+		]
+	}
+]  
+    
+);
+
+
+
+
+
+
+
+/*
+[
 	{
 		"_id": "6395dd564f2e713dd56c2459",
 		"title": "Fried Super Rice",
@@ -94,8 +195,4 @@ db.recipes.insertMany(
 			"wanton"
 		]
 	}
-]  
-    
-);
-
-
+]  */
